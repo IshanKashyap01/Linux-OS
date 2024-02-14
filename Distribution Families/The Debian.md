@@ -3,7 +3,7 @@
 - The Debian distribution is upstream for several other distros such as **Ubuntu**
 which in turn is upstream for *Linux Mint* and many others
 
-- It is a pure open source community project
+- It is a pure open-source community project
 
 - It has a strong focus on stability
 

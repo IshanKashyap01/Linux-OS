@@ -7,6 +7,6 @@ and *Oracle Linux*
 
 - CentOS is a close clone of RHEL
 
-- Oracle Linux is a copy with sum changes
+- Oracle Linux is a copy with some changes
 
-- It uses **yum** package manager
+- It uses the ```yum``` package manager
