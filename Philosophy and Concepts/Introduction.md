@@ -32,7 +32,7 @@ Program that starts the Operating System
 
 - Method for storing and organizing files.
 
-- Ex. ```ext3```, ```ext4```, ```FAT```, ```XES```, ```NTFS``` and ```butterfs``` (Btrfs)
+- Ex. `ext3`, `ext4`, `FAT`, `XES`, `NTFS` and `butterfs` (Btrfs)
 
 ### X Window System
 
@@ -41,7 +41,7 @@ systems
 
 ### Desktop Environment
 
-GUI on top of the OS. Ex. ```GNOME```, ```KDE```, ```Xfce``` and ```Fluxbox```
+GUI on top of the OS. Ex. `GNOME`, `KDE`, `Xfce` and `Fluxbox`
 
 ### Command Line
 
@@ -51,4 +51,4 @@ Interface for typing commands on top of the OS
 
 - Command line interpreter that interprets CLI input for the OS.
 
-- Ex. ```Bash```, ```tcsh``` and ```zsh```
+- Ex. `Bash`, `tcsh` and `zsh`
