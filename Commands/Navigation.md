@@ -16,26 +16,38 @@ $ popd
 $
 ```
 
-1. ```less``` display files in a page format
+1. `cd` stands for change directory; w/o arguments switches to the home directory
 
-    - ```-N``` displays line number
+    - `cd /path/to/directory/` changes the current working directory with the given
+    path
 
-2. ```head``` displays the first 10 lines of a file
+    - `cd ..` switches to the parent folder of the current working directory
 
-    - ```-[lines]``` displays the given amount of lines
+2. `pushd` pushes the given location to the stack for later use
 
-3. ```tail```
+3. `popd` switches to the top-most directory in the stack
 
-    - ```-[lines]``` displays the given amount of lines
+4. `ls` prints all the contents of the current directory
 
-4. ```tac``` prints the file in reverse order of lines
+    - `-l` prints in a long listing format
 
-5. ```touch``` creates and modifies files
+5. `mkdir` creates a new directory with the given name in the given location
 
-6. ```rm``` removes a file
+6. `rm` removes files and directories
 
-    - ```-r``` recursively removes directories and their contents
+    - `-r` recursively remove all files and directories in the given location
 
-    - ```-i``` prompt before every removal
+    - `-i` prompts before every removal
 
-    - ```-f``` forcefully remove a file/directory
+    - `-f` forcefully removes everything
+
+7. `tree` recursively prints all contents of the current directory in a tree-like
+format
+
+    - `-L` prints all contents given level deep
+
+    - `-P` prints only those files that matches the following pattern
+
+    - `-d` prints the directories only
+
+    - `-I` ignores all files that matches the following pattern

@@ -26,13 +26,13 @@ F S UID          PID    PPID  C PRI  NI ADDR SZ WCHAN  STIME TTY          TIME C
 5 S root           2       1  0  80   0 -   614 -      08:57 ?        00:00:00 /init
 ```
 
-- ```ps``` reports a snapshot of the current processes
+- `ps` reports a snapshot of the current processes
 
-- ```-e``` selects all processes
+- `-e` selects all processes
 
-- ```-f``` does full-format listing
+- `-f` does full-format listing
 
-- ```-l``` displays in long format
+- `-l` displays in long format
 
 ```bash
 $ renice +1 419
