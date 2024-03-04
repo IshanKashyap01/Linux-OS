@@ -9,4 +9,4 @@ and *Oracle Linux*
 
 - Oracle Linux is a copy with some changes
 
-- It uses the ```yum``` package manager
+- It uses the `yum` package manager

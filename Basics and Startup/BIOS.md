@@ -20,7 +20,7 @@ keyboard, and tests the main memory
 - Thereafter, date-time info and other most important peripherals are loaded
 from the CMOS values
 
-- Ex. ```GRUB```, ```ISO``` (for booting from removable media) and ```DOS u-boot```
+- Ex. `GRUB`, `ISO` (for booting from removable media) and `DOS u-boot`
 (for embedded device appliances)
 
 - It is responsible for loading the **Kernel** and file system into memory

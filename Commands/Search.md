@@ -7,7 +7,7 @@ $ locate The Debian
 $ updatedb
 ```
 
-- ```locate``` finds all files on the system matching the given pattern
+- `locate` finds all files on the system matching the given pattern
 
 ```bash
 $ find *Commands*
@@ -32,11 +32,10 @@ $ find -size 10
 ./.git/hooks/fsmonitor-watchman.sample
 ```
 
-- ```find``` recursively searches all files matching the given pattern in the
-given directory (current working directory by default)
+- `find` recursively searches all files matching the given pattern in the given
+directory (current working directory by default)
 
-- ```-type``` searches only for files if given ```f``` and only directories if
-given ```d```
+- `-type` searches only for files if given `f` and only directories if given `d`
 
-- ```-size``` searches for all files matching the given size. ```+``` indicates
-files greater than the given value
+- `-size` searches for all files matching the given size. `+` indicates files
+greater than the given value

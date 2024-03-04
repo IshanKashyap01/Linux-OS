@@ -26,13 +26,13 @@ $ dpkg --listfiles python3 | tail -5
 /usr/share/pixmaps/python3.xpm
 ```
 
-- ```dpkg``` package manager for Debian
+- `dpkg` package manager for Debian
 
-- ```--list``` lists all the packages installed on the system
+- `--list` lists all the packages installed on the system
 
-- ```--listfiles``` or ```-L``` lists all the files owned by the package(s)
+- `--listfiles` or `-L` lists all the files owned by the package(s)
 
-- ```--remove``` removes the specified package(s)
+- `--remove` removes the specified package(s)
 
 ## APT Commands
 
@@ -44,10 +44,10 @@ wget2 - file and recursive website downloader
 wget2-dev - development file for libwget2
 ```
 
-- ```apt-cache``` does not manipulate the state of the system but provides operations
+- `apt-cache` does not manipulate the state of the system but provides operations
 to search APT's package cache
 
-- ```search``` searches all packages matching the regex provided
+- `search` searches all packages matching the regex provided
 
 ## apt-get Command
 
@@ -73,14 +73,14 @@ Calculating upgrade... Done
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
 ```
 
-- ```apt-get``` command-line tool for handling packages
+- `apt-get` command-line tool for handling packages
 
-- ```install``` installs all the specified packages
+- `install` installs all the specified packages
 
-- ```update``` synchronizes the package index files from their sources
+- `update` synchronizes the package index files from their sources
 
-- ```upgrade``` installs the newest version of all packages currently installed on the system
+- `upgrade` installs the newest version of all packages currently installed on the system
 
-- ```remove``` removes the specified packages from the system but not their config files
+- `remove` removes the specified packages from the system but not their config files
 
-- ```purge``` removes the specified packages along with their config files
+- `purge` removes the specified packages along with their config files

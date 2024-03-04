@@ -10,38 +10,38 @@ is a method of storing and locating files on the disk
 
 ## File System Hierarchy Standard
 
-Everything comes under the root folder ```/```. The file system from the root
+Everything comes under the root folder `/`. The file system from the root
 folder has a standard set of folders as follows:
 
-- ```bin/``` essential user command binaries
+- `bin/` essential user command binaries
 
-- ```boot/``` static files of bootloader
+- `boot/` static files of bootloader
 
-- ```dev/``` device files
+- `dev/` device files
 
-- ```etc/``` host specific system configuration
+- `etc/` host specific system configuration
 
-- ```home/``` user home directories
+- `home/` user home directories
 
-- ```lib/``` essential shared libraries and kernel modules
+- `lib/` essential shared libraries and kernel modules
 
-- ```media/``` mount point for removable devices
+- `media/` mount point for removable devices
 
-- ```mnt/``` mount point for temporary mount file systems
+- `mnt/` mount point for temporary mount file systems
 
-- ```opt/``` add-on app s/w packages
+- `opt/` add-on app s/w packages
 
-- ```sbin/``` system binaries
+- `sbin/` system binaries
 
-- ```srv/``` data for services provided by this system
+- `srv/` data for services provided by this system
 
-- ```tmp/``` temporary files
+- `tmp/` temporary files
 
-- ```usr/``` (multi) user utilities and applications
+- `usr/` (multi) user utilities and applications
 
-- ```var/``` variable files
+- `var/` variable files
 
-- ```root/``` home directory for root user
+- `root/` home directory for root user
 
-- ```proc/``` virtual file system documenting kernel and process status as text
+- `proc/` virtual file system documenting kernel and process status as text
 files
